@@ -1,0 +1,128 @@
+
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 6.5rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0 auto auto auto;
+  color:#66BFBF;
+}
+p{
+  line-height: 2;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  border-color: #c0c0c0;
+  width: 60px;
+  margin: 100px auto 100px auto;
+
+}
+a{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAf6f6;s
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: #EAF6F6;
+  color: #66BFBF;
+}
+.middle-container {
+  position:relative;
+}
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align:left;
+  line-height: 2;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.support-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.coding-img{
+  width:20%;
+  float: right;
+  margin-left:30px;
+}
+
+.profile-pic{
+  margin: 50px auto 50px auto;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  color: #11999E;
+  font-size: 0.8rem;
+  word-spacing: 2rem;
+  padding: 45px 0 0 0;
+}
+.credits{
+  color: #EAF6F6;
+  padding: 10px;
+  margin-bottom: 0;
+  word-spacing: 0;
+
+}
+.btn{
+    border: 0;
+    margin: 30px auto 70px auto;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #66BFBF;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 20%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+  }
+
+  .btn:hover {
+      background-color: #18cbd6;
+  }
+
+  .btn:active {
+      box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                  inset 2px 2px 3px rgba(0, 0, 0, .6);
+  }
